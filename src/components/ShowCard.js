@@ -16,7 +16,7 @@ export const ShowCard = (show) => {
                 <p>
                     {show.desc}
                 </p>
-                <button className="btn btn-dark">Get Tickets</button>
+                <button className="btn btn-dark">More Info</button>
             </div>
         </Fragment>
     )

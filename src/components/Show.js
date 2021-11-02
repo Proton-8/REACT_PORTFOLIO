@@ -1,33 +1,33 @@
 import React from 'react'
 import { ShowCard } from './ShowCard'
 //  images
-import bar1 from "../images/bar1.jpg"
-import bar2 from "../images/bar2.jpg"
-import bar3 from "../images/bar3.jpg"
+import bar1 from "../images/Proj1.JPG"
+import bar2 from "../images/Proj2.gif"
+import bar3 from "../images/Proj3.JPG"
 
 
 export const Show = () => {
     const Data = [
         {
-            venue: "Venue 1",
+            venue: "Project 1 - City Scan",
             venueImg: bar1,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia distinctio quisquam, perspiciatis consequuntur odio sapiente rem! Ratione harum magni, neque laboriosam natus omnis officia aspernatur corrupti quidem, aut sapiente cum iure dolore ullam. Laborum perspiciatis delectus iure consectetur vel porro modi numquam vero dignissimos eveniet!",
             id: "1",
         },
         {
-            venue: "Venue 2",
+            venue: "Project 2 - Work Day Scheduler",
             venueImg: bar2,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia distinctio quisquam, perspiciatis consequuntur odio sapiente rem! Ratione harum magni, neque laboriosam natus omnis officia aspernatur corrupti quidem, aut sapiente cum iure dolore ullam. Laborum perspiciatis delectus iure consectetur vel porro modi numquam vero dignissimos eveniet!",
             id: "2",
         },
         {
-            venue: "Venue 3",
+            venue: "Project 3 - Weight Tracker",
             venueImg: bar3,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia distinctio quisquam, perspiciatis consequuntur odio sapiente rem! Ratione harum magni, neque laboriosam natus omnis officia aspernatur corrupti quidem, aut sapiente cum iure dolore ullam. Laborum perspiciatis delectus iure consectetur vel porro modi numquam vero dignissimos eveniet!",
             id: "3",
         },
         {
-            venue: "Venue 4",
+            venue: "TBA",
             venueImg: bar2,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia distinctio quisquam, perspiciatis consequuntur odio sapiente rem! Ratione harum magni, neque laboriosam natus omnis officia aspernatur corrupti quidem, aut sapiente cum iure dolore ullam. Laborum perspiciatis delectus iure consectetur vel porro modi numquam vero dignissimos eveniet!",
             id: "4",
@@ -39,7 +39,7 @@ export const Show = () => {
         <section id="shows" class="section bg-light">
             <div class="container">
                     <div>
-                        <h1 className="text-large bg-dark rounded">Upcoming Shows</h1>
+                        <h1 className="text-large bg-dark rounded">Highlighted Projects</h1>
                     </div>
                 <div className="shows">
                 {/* Grabbing the show info and mapping through */}
