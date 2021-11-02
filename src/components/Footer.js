@@ -14,7 +14,7 @@ export const Footer = () => {
     <p>My phone: <a href="tel:+1233456789"> 123 345 6789</a>
     </p>
     <p>
-     
+     {/* need help with making the RESUME live */}
       <a href="Resume Ron A Shutter 2021.doc"> My Resume</a>
       </p>
       <p>

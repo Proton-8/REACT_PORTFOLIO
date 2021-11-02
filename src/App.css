@@ -95,12 +95,12 @@ nav a#openup {
 
 
 #showcase .container {
-    margin-top: 25vh;
+    margin-top: 12vh;
 }
 
 #showcase h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
+    font-size: 5rem;
+    margin-bottom: .1rem;
 }
 #showcase h2 {
     font-size: 2rem;
@@ -115,7 +115,7 @@ nav a#openup {
  
 .background-trans-50 {
     background-color: rgba(37, 26, 26, 0.809);
-    border-radius: 15px;
+    border-radius: 25px;
     color: #eee;
 }
 
@@ -143,9 +143,9 @@ nav a#openup {
    padding: 0 3rem;
 }
 
-/* Shows */
+/* Projects */
 
-.shows {
+.projects {
    display: grid;
    grid-gap: 20px;
    grid-template-columns: repeat(2, 1fr);
@@ -154,7 +154,7 @@ nav a#openup {
    margin-bottom: 25pt;
 }
 
-.shows h2 {
+.projects h2 {
   font-size: 2rem;
   margin-bottom: 15pt;
 }
@@ -386,7 +386,7 @@ nav a#openup {
 }
 
 @media screen and (max-width: 780px) {
-  .shows {
+  .projects {
       grid-template-columns: 1fr;
   }
 

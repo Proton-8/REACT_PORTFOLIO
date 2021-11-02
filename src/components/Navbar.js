@@ -6,16 +6,16 @@ export const Navbar = () => {
             <nav className="cf">
                 <ul className="cf">
                     <li className="hide-on-small">
-                        <a href="/#" className="bold"> Fun Times</a>
+                        <a href="/#" className="bold"> Home</a>
                     </li>
                     <li>
-                        <a href="/#"> Shows</a>
+                        <a href="/#"> Projects</a>
                     </li>
                     <li>
-                        <a href="/#"> Social</a>
+                        <a href="/#"> Contact Me</a>
                     </li>
                 </ul>
-<a href="/#" id="openup"> Fun Times</a>
+<a href="/#" id="openup"> Ronald Shutter</a>
 
                 </nav>
         </div>

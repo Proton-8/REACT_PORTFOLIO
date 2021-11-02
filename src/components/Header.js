@@ -19,13 +19,13 @@ export const Header = () => {
                <li> ...</li>
                <li> ... </li>
                <li> ... </li>
-             <p> ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-</p>
+             
             </p>
             <p> </p>
             <p className="lead hide-on-small">
 
-                HIRE ME :-)
+               <p> ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+</p>
             </p>
 
 

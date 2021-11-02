@@ -3,7 +3,7 @@ import './App.css';
 import React, { Fragment } from 'react';
 import { Navbar } from "./components/Navbar";
 import { Header} from "./components/Header";
-import { Show} from "./components/Show";
+import { Project} from "./components/Project";
 import { Footer} from "./components/Footer";
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
    <Navbar/>
    <Header/>
     </div>
-    <Show/>
+    <Project/>
     <Footer />
        </Fragment>
   );
