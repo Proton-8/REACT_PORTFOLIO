@@ -15,7 +15,7 @@ export const Footer = () => {
     </p>
     <p>
      {/* need help with making the RESUME live */}
-      <a href="Resume Ron A Shutter 2021.doc"> My Resume</a>
+      <a href="https://docs.google.com/document/d/1xV13u2ruQU41HeSb9MlHEL8p5AtqM4gR/edit?usp=sharing&ouid=115475312727942649219&rtpof=true&sd=true"> My Resume</a>
       </p>
       <p>
             <a href="https://github.com/Proton-8">My GitHub Acct</a></p>
