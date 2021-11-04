@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 import { Navbar } from "./components/Navbar";
 import { Header} from "./components/Header";
 import { Project} from "./components/Project";
-// import { Contact} from "./components/Contact";
+import { Contact} from "./components/Contact";
 import { Footer} from "./components/Footer";
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
    <Header/>
     </div>
     <Project/>
+    <Contact/>
     <Footer />
        </Fragment>
   );
