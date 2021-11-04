@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 
+// Import a helper function that will check if the email is valid
+import { checkPassword, validateEmail } from '../utils/helpers';
 
-// Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../../utils/helpers';
+export const Form = () => {
+  return (
+     <contact>
 
-function Form() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
@@ -86,7 +88,8 @@ function Form() {
         </div>
       )}
     </div>
-  );
+  )
+  </contact>
 }
 
-export default Form;
+
