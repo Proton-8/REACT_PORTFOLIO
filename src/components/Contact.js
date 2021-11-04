@@ -1,10 +1,13 @@
+// do I need this ??
 import React, { useState } from 'react';
 
 
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from '../../utils/helpers';
 
-function Form() {
+export const Form => {
+  return (
+    <contact> 
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
@@ -87,6 +90,7 @@ function Form() {
       )}
     </div>
   );
-}
+</contact>
 
-export default Form;
+      );
+}      

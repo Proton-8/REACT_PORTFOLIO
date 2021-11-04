@@ -6,7 +6,8 @@ export const Navbar = () => {
             <nav className="cf">
                 <ul className="cf">
                     <li className="hide-on-small">
-                        <a href="/#" className="bold"> Home</a>
+                        <a href="/#" className="bold"> About
+                        Me</a>
                     </li>
                     <li>
                         <a href="/#"> Projects</a>

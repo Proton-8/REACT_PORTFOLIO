@@ -7,7 +7,7 @@ export const Header = () => {
                 Ronald Shutter
             </h1>
             <p className="lead hide-on-small">
-
+<h3> ABOUT ME:</h3>
                A Full STACK Developer with SKILLS in:
                <li> HTML </li>
                <li> CSS </li>

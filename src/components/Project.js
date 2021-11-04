@@ -4,8 +4,9 @@ import { ShowCard } from './ShowCard'
 import Project1 from "../images/Proj1.JPG"
 import Project2 from "../images/Proj2.gif"
 import Project3 from "../images/Proj3.JPG"
-
-
+import Project4 from "../images/Proj4.gif"
+import Project5 from "../images/Proj5.JPG"
+import Project6 from "../images/Proj6.JPG"
 export const Project = () => {
     const Data = [
         {
@@ -14,24 +15,42 @@ export const Project = () => {
             desc: "This was my first TEAM project. City-Scan allows users to search COVID-related data on a state level, while evaluating quality of life data such as healthcare, commute and cost of living of specific cities within the state. ",
             id: "1",
         },
+
         {
-            venue: "Project 2 - Work Day Scheduler",
-            venueImg: Project2,
-            desc: "WORKDAY Scheduler The focus of this project was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery. ",
-            id: "2",
-        },
-        {
-            venue: "Project 3 - Weight Tracker",
+            venue: "Project 2 - Weight Tracker",
             venueImg: Project3,
             desc: "My second TEAM project. We built this app to help the average user keep track of their weight. This website will provide the ability to input their daily weight and allow them to display their daily progress on a table or graph and inspire me to keep going. They will also have the option to share my progress with my friends or my doctor. ",
+            id: "2",
+        },
+
+        {
+            venue: "Application 1 - Work Day Scheduler",
+            venueImg: Project2,
+            desc: "WORKDAY Scheduler The focus of this project was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery. ",
             id: "3",
         },
+        
         {
-            venue: "TBA",
-            venueImg: Project1,
+            venue: "Application 2 - Password Generator ",
+            venueImg: Project4,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia distinctio quisquam, perspiciatis consequuntur odio sapiente rem! Ratione harum magni, neque laboriosam natus omnis officia aspernatur corrupti quidem, aut sapiente cum iure dolore ullam. Laborum perspiciatis delectus iure consectetur vel porro modi numquam vero dignissimos eveniet!",
             id: "4",
         },
+        {
+            venue: "Application 3 - Fitness Tracker",
+            venueImg: Project5,
+            desc: "This app will allow a user to view create and track daily workouts. The user will be able to log multiple exercises in a workout on a given day. The app will also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, the app will be able to track the distance traveled and present the past 7 workouts in a graph on the dashboard page ",
+            id: "5",
+        },
+
+        {
+            venue: "Application 4 -  Regex Tutorial",
+            venueImg: Project6,
+            desc: " Used GitHub Gist for this project.  In this tutorial I explored a Regular Expression for verifying an email address that the user has given us. An email can be broken into 5 small sections. These five sections from left to right are a character input, an @ symbol, more character inputs, a dot and more characters. So, we must write a decoder sequence that will address each of the five sections. ",
+            id: "6",
+        },
+
+  
     ]
 
     return (
