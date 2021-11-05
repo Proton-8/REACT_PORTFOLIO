@@ -55,8 +55,8 @@ export const Project = () => {
 
     return (
         //Set container we want the showcard to be nested in
-        <section id="projects" class="section bg-light">
-            <div class="container">
+        <section id="projects" className="section bg-light">
+            <div className="container">
                     <div>
                         <h1 className="text-large bg-dark rounded">Highlighted Projects</h1>
                     </div>

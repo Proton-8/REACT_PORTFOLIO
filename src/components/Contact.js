@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { checkPassword, validateEmail } from '../utils/helpers';
 
 export const Contact = () => {
-  
+
 
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
@@ -47,7 +47,7 @@ export const Contact = () => {
       );
       return;
     }
-    alert(`Hello ${userName}`);
+    // alert(`Hello ${userName}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
@@ -56,8 +56,9 @@ export const Contact = () => {
   };
 
   return (
-    <div>
-      <p>Hello {userName}</p>
+    <div id="contact">
+      <p> </p>
+      {/* <p>Hello {userName}</p> */}
       <form className="form">
         <input
           value={email}

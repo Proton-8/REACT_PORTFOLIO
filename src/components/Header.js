@@ -2,11 +2,11 @@ import React from 'react'
 
 export const Header = () => {
     return (
-        <main className="container background-trans-50"
+        <main className="container background-trans-50" id="about"
         >    <h1>
                 Ronald Shutter
             </h1>
-            <p className="lead hide-on-small">
+            <span className="lead hide-on-small">
 <h3> ABOUT ME:</h3>
                A Full STACK Developer with SKILLS in:
                <li> HTML </li>
@@ -20,7 +20,7 @@ export const Header = () => {
                <li> ... </li>
                <li> ... </li>
              
-            </p>
+            </span>
             <p> </p>
             
 
