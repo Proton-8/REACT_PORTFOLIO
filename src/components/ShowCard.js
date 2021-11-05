@@ -16,7 +16,7 @@ export const ShowCard = (project) => {
                 <p>
                     {project.desc}
                 </p>
-                <button className="btn btn-dark" >More Info</button> {project.ref}
+                <button  href={project.ref}  className="btn btn-dark" >  More Info</button> 
             </div>
         </Fragment>
     )
