@@ -57,24 +57,25 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contact">
+    <div className= "contactStart" id="contact">
       <p> </p>
       <p> Contact me using the form below</p>
       <form className="form">
+      <input
+          value={userName}
+          name="userName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+        />
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
-        <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
-        />
+     
         <input
           value={message}
           name="message"

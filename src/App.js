@@ -16,6 +16,7 @@ function App() {
    <Header/>
     </div>
     <Project />
+    <br/>
     <Contact />
     <Footer />
        </Fragment>
