@@ -3,7 +3,7 @@
 
 ## Description
 
-This app will 
+This app will present my latest Portfolio using REACT
 
 
 
@@ -34,9 +34,6 @@ GIVEN a single-page application portfolio for a web developer
      * THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
  * WHEN I view the footer
      * THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
-
-
-
 
 
 

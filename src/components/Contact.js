@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 // Import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 export const Contact = () => {
 
@@ -11,7 +11,7 @@ export const Contact = () => {
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
-  const [password, setPassword] = useState('');
+  const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -26,7 +26,7 @@ export const Contact = () => {
     } else if (inputType === 'userName') {
       setUserName(inputValue);
     } else {
-      setPassword(inputValue);
+      setMessage(inputValue);
     }
   };
 
@@ -41,24 +41,25 @@ export const Contact = () => {
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    if (!checkPassword(password)) {
-      setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
-      );
-      return;
-    }
-    // alert(`Hello ${userName}`);
+    // if (!checkPassword(password)) {
+    //   setErrorMessage(
+    //     `Choose a more secure password for the account: ${userName}`
+    //   );
+    //   return;
+    // }
+    alert(`Thank you ${userName} for contacting me`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
-    setPassword('');
+    setMessage('');
     setEmail('');
+    // <a href="#about"> </a>
   };
 
   return (
     <div id="contact">
       <p> </p>
-      {/* <p>Hello {userName}</p> */}
+      <p> Contact me using the form below</p>
       <form className="form">
         <input
           value={email}
@@ -75,11 +76,11 @@ export const Contact = () => {
           placeholder="username"
         />
         <input
-          value={password}
-          name="password"
+          value={message}
+          name="message"
           onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
+          type="message"
+          placeholder="Message"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>

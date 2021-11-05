@@ -4,9 +4,8 @@ export const Footer = () => {
     return (
        <footer>
 
-
     <h2>
-      More Info 
+     Detailed Info 
     </h2>
 
     <p> My email: <a href="mailto:ronashutter@gmail.com">ronashutter@gmail.com</a>
@@ -26,8 +25,6 @@ export const Footer = () => {
     </p>
     
     <h2>Thank you for visiting my site!</h2>
-
-
            
            <h3>&copy;Proton-8</h3>
        </footer>
