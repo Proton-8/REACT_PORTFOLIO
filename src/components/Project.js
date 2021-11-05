@@ -13,7 +13,8 @@ export const Project = () => {
             venue: "Project 1 - City Scan",
             venueImg: Project1,
             desc: "This was my first TEAM project. City-Scan allows users to search COVID-related data on a state level, while evaluating quality of life data such as healthcare, commute and cost of living of specific cities within the state. ",
-            id: "1",
+            ref: "https://proton-8.github.io/My-first-password-creator/",
+            id: "1",            
         },
 
         {
@@ -34,6 +35,7 @@ export const Project = () => {
             venue: "Application 2 - Password Generator ",
             venueImg: Project4,
             desc: " A quick way to generate a secret password that could contain four possible combinations. First a user must choose the length from 8 to 128 characters long. After that the following choices must be made: 1. Do you want upper case characters? 2. Do you want lower case characters? 3. Do you want numbers?  4. Do you want special characters?  - NOTE: The user must choose at least one option or it will return to the start. The user is then presented the final password  ",
+            ref: "https://proton-8.github.io/My-first-password-creator/",
             id: "4",
         },
         {
