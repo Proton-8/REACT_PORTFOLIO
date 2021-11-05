@@ -191,12 +191,12 @@ img {
   /* Contact */
 
   #contact {
-     margin: 20px;
+     margin: 15px;
      padding: 0px;
      position: relative;
      overflow-y: hidden;
      display: flexbox;
-
+     /* font-weight: bold; */
 
      /* width: 100vh; */
      /* height: 30vh; */
@@ -254,10 +254,10 @@ img {
   }
 
   .btn {
-      padding: 8pt;
-      margin-top: 15pt;
+      padding: 2pt;
+      /* margin-top: 1pt; */
       border: solid black 1pt;
-      border-radius: 5px;
+      border-radius: 10px;
       cursor: pointer;
   }
 
@@ -305,12 +305,12 @@ img {
 }
 
 #showcase {
-    height: 75vh; 
+    height: 85vh; 
     width: 100vw;
 }
 
 #showcase .container {
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 #showcase h1 {
@@ -413,9 +413,10 @@ nav a#openup {
 }
 
 .form {
-    margin: 20px;
+    margin: 5px;
     text-align: center;
-    
+    border-radius: 15px;
+
   }
   
   .form input {
@@ -424,7 +425,8 @@ nav a#openup {
     margin-top: 1px;
     margin-bottom: 5px;
     width: 75%;
-    font-size: 1.1 rem;
+    font-size: 1.5 rem;
+    border-radius: 5px;
   }
   
 .github {

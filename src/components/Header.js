@@ -13,7 +13,8 @@ export const Header = () => {
                    
             <span className="lead hide-on-small">
 <h3> ABOUT ME:</h3>
-               A creative Full STACK Developer with SKILLS in:
+               Having over 20 years in the Engineering field, I am now exploring a new passion.  That is becoming a Full STACK Developer!
+               <p> My new SKILLS include:</p>
                <li> HTML </li>
                <li> CSS </li>
                <li> JAVASCRIPT </li>

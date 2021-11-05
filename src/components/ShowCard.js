@@ -16,7 +16,11 @@ export const ShowCard = (project) => {
                 <p>
                     {project.desc}
                 </p>
-                <button  href={project.ref}  className="btn btn-dark" >  More Info</button> 
+                <p>
+                    <a className="btn btn-dark" href={project.href}>View App</a>
+               </p>
+
+                {/* <button  href={project.ref}  className="btn btn-dark" >  View App </button>  */}
             </div>
         </Fragment>
     )
