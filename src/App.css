@@ -445,3 +445,8 @@ nav a#openup {
     background-color:lightseagreen;
     padding: 5px;
 }
+.avatar{
+    display:flexbox;
+    width: 60px;
+    height: 60px;
+}

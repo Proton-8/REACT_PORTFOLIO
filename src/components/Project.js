@@ -33,7 +33,7 @@ export const Project = () => {
         {
             venue: "Application 2 - Password Generator ",
             venueImg: Project4,
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia distinctio quisquam, perspiciatis consequuntur odio sapiente rem! Ratione harum magni, neque laboriosam natus omnis officia aspernatur corrupti quidem, aut sapiente cum iure dolore ullam. Laborum perspiciatis delectus iure consectetur vel porro modi numquam vero dignissimos eveniet!",
+            desc: " A quick way to generate a secret password that could contain four possible combinations. First a user must choose the length from 8 to 128 characters long. After that the following choices must be made: 1. Do you want upper case characters? 2. Do you want lower case characters? 3. Do you want numbers?  4. Do you want special characters?  - NOTE: The user must choose at least one option or it will return to the start. The user is then presented the final password  ",
             id: "4",
         },
         {
