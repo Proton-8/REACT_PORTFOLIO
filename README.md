@@ -3,7 +3,7 @@
 
 ## Description
 
-This app will present my latest Portfolio using REACT
+This app will present my latest Portfolio on a single page using REACT
 
 
 
@@ -35,13 +35,7 @@ GIVEN a single-page application portfolio for a web developer
  * WHEN I view the footer
      * THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-
-
-
-## Deployed Website
-[Workout-Tracker](https://polar-lake-80445.herokuapp.com/) * MIT License
-
-
+<br>
 
 ## Technologies Used
 
@@ -51,14 +45,15 @@ GIVEN a single-page application portfolio for a web developer
 * ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
+* ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-* `Deployed with Heroku and MongoDB Atlas` 
+* ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-  * ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-  * ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-<br>
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+
 <br>
 
  ## Example screen shots:

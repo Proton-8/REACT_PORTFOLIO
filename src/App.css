@@ -191,10 +191,15 @@ img {
   /* Contact */
 
   #contact {
-     margin: 10px;
+     margin: 20px;
      padding: 0px;
-     width: 50vh;
-     height: 25vh;
+     position: relative;
+     overflow-y: hidden;
+     display: flexbox;
+
+
+     /* width: 100vh; */
+     /* height: 30vh; */
      background-color:black;
      position: relative;
      overflow-y: hidden;
@@ -391,8 +396,9 @@ nav a#openup {
   }
 
   figure {
-    width: 50vw;
+    width: 60vw;
     margin-left: 25pt;
+
   }
 
   footer .footer-cols {
@@ -413,11 +419,12 @@ nav a#openup {
   }
   
   .form input {
-    display: block;
+    display:flexbox;
     text-align: center;
     margin-top: 1px;
     margin-bottom: 5px;
-    width: 100%;
+    width: 75%;
+    font-size: 1.1 rem;
   }
   
 .github {
@@ -428,4 +435,13 @@ nav a#openup {
 }
 .contactStart {
     text-align: center;
+    font-size: 1.5rem;
+
+}
+.button{
+    display:flexbox;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color:lightseagreen;
+    padding: 5px;
 }

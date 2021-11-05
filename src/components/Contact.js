@@ -1,4 +1,4 @@
-// do I need this ??
+
 import React, { useState } from 'react';
 
 // Import a helper function that will check if the email is valid
@@ -36,7 +36,7 @@ export const Contact = () => {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+      setErrorMessage('Email or name is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
@@ -53,6 +53,7 @@ export const Contact = () => {
     setUserName('');
     setMessage('');
     setEmail('');
+    setErrorMessage('');
     // <a href="#about"> </a>
   };
 
@@ -83,7 +84,7 @@ export const Contact = () => {
           type="message"
           placeholder="Message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button type="button" className="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>

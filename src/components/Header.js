@@ -8,7 +8,7 @@ export const Header = () => {
             </h1>
             <span className="lead hide-on-small">
 <h3> ABOUT ME:</h3>
-               A Full STACK Developer with SKILLS in:
+               A creative Full STACK Developer with SKILLS in:
                <li> HTML </li>
                <li> CSS </li>
                <li> JAVASCRIPT </li>
