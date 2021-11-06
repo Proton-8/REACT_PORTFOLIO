@@ -39,14 +39,9 @@ export const Contact = () => {
       setErrorMessage('Email or name is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+
     }
-    // if (!checkPassword(password)) {
-    //   setErrorMessage(
-    //     `Choose a more secure password for the account: ${userName}`
-    //   );
-    //   return;
-    // }
+    // If everything is good, send an Alert!
     alert(`Thank you ${userName} for contacting me`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
@@ -54,15 +49,15 @@ export const Contact = () => {
     setMessage('');
     setEmail('');
     setErrorMessage('');
-    // <a href="#about"> </a>
+
   };
 
   return (
-    <div className= "contactStart" id="contact">
+    <div className="contactStart" id="contact">
       <p> </p>
       <p> Contact me using the form below</p>
       <form className="form">
-      <input
+        <input
           value={userName}
           name="userName"
           onChange={handleInputChange}
@@ -76,7 +71,7 @@ export const Contact = () => {
           type="email"
           placeholder="Email"
         />
-     
+
         <input
           value={message}
           name="message"

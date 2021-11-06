@@ -56,14 +56,10 @@ GIVEN a single-page application portfolio for a web developer
 
 <br>
 
- ## Example screen shots:
+ ## Demo screen shots:
 <br>
 <p>
-<img src="Workout-Start.JPG" alt="Start Page demo">
-
-
-<img src="Workout-Dashboard.JPG" alt="Dashboard demo">
-
+<img src="./src/images/Portfolio.gif" alt="Start Page demo">
 
 </p>
 
