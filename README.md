@@ -53,8 +53,15 @@ GIVEN a single-page application portfolio for a web developer
 
 * ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
+* `Deployed with Heroku` 
+
+  * ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 <br>
+
+## Deployed website: <a href="https://morning-scrubland-35363.herokuapp.com/ "> Ron's Profile</a>
+<br>
+
 
  ## Demo screen shots:
 <br>
