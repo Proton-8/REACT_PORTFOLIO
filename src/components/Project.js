@@ -29,7 +29,7 @@ export const Project = () => {
         {
             venue: "Project 3 - Expense Management System (EMS)",
             venueImg: Project8,
-            desc: "My final TEAM project. We built this app to help the average user ",
+            desc: "My final TEAM project. A React app that uses Apollo Client to manage both local and remote data with GraphQL, JWT (JSON Web Token) to define a self-contained token for securely transmitting information between parties. Other features we use in our project are JSX, CSS for front-end design.   When users open the page, they are asked to log in or sign up. When they're in, they are shown the dashboard, where they see the window summaries of total budget, budget left and hoe much they've spent. In the dashboard, they also have the access to the donut chart that displays the top 5 expenses and the report below it that shows the transactions. When they click on Category on the side bar, they can choose, create or remove category. A updated list of categories will be shown after they click the button. When they click on Budget, they can add When they click on Expense, they can add the description about the expense, the amount is spent and choose the category it falls into, and save the data. When they click on Extra, they have access to extra services, browsing traveling and entertainment information. They can look for air tickets, restaurant locations ",
             ref: " https://project-ems.herokuapp.com/",
             id: "8",
         },
