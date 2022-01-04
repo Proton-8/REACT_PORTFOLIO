@@ -4,6 +4,7 @@ import { ShowCard } from './ShowCard'
 import Project1 from "../images/Proj1.JPG"
 import Project2 from "../images/Proj2.gif"
 import Project3 from "../images/Proj3.JPG"
+import Project8 from "../images/Proj8.JPG"
 import Project4 from "../images/Proj4.gif"
 import Project5 from "../images/Proj5.JPG"
 import Project6 from "../images/Proj6.JPG"
@@ -19,10 +20,18 @@ export const Project = () => {
 
         {
             venue: "Project 2 - Weight Tracker",
-            venueImg: Project2,
+            venueImg: Project3,
             desc: "My second TEAM project. We built this app to help the average user keep track of their weight. This website will provide the ability to input their daily weight and allow them to display their daily progress on a table or graph and inspire me to keep going. They will also have the option to share my progress with my friends or my doctor. ",
             ref: "https://my-tracker35.herokuapp.com/ ",
             id: "2",
+        },
+
+        {
+            venue: "Project 3 - Expense Management System (EMS)",
+            venueImg: Project8,
+            desc: "My final TEAM project. We built this app to help the average user ",
+            ref: "https://my-tracker35.herokuapp.com/ ",
+            id: "8",
         },
 
         {
