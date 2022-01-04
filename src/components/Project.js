@@ -19,7 +19,7 @@ export const Project = () => {
 
         {
             venue: "Project 2 - Weight Tracker",
-            venueImg: Project3,
+            venueImg: Project2,
             desc: "My second TEAM project. We built this app to help the average user keep track of their weight. This website will provide the ability to input their daily weight and allow them to display their daily progress on a table or graph and inspire me to keep going. They will also have the option to share my progress with my friends or my doctor. ",
             ref: "https://my-tracker35.herokuapp.com/ ",
             id: "2",
