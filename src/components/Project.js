@@ -30,7 +30,7 @@ export const Project = () => {
             venue: "Project 3 - Expense Management System (EMS)",
             venueImg: Project8,
             desc: "My final TEAM project. We built this app to help the average user ",
-            ref: "https://my-tracker35.herokuapp.com/ ",
+            ref: " https://project-ems.herokuapp.com/",
             id: "8",
         },
 
