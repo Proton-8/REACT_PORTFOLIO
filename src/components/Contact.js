@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from 'emailjs';
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const form = useRef();
@@ -7,7 +7,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_ci6f73c', form.current, 'user_mKp2h1I3qs8RuKuoeS7TP')
+    emailjs.sendForm('service_egi4vah', 'template_62jo4fn', form.current, 'user_mKp2h1I3qs8RuKuoeS7TP')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
