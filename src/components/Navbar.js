@@ -17,7 +17,8 @@ export const Navbar = () => {
                     </li>
                 
                     <li>
-                        <a href="https://docs.google.com/document/d/19j4K0bpUyif7yZOFB5m1Rk0-A9qcCLFh/edit?usp=sharing&ouid=115475312727942649219&rtpof=true&sd=true">  My Resume</a>
+                        <a href="https://docs.google.com/document/d/1MfuMqFuQyG7wiIdfwsF5YPtcSD7_MPf1/edit?usp=sharing&ouid=115475312727942649219&rtpof=true&sd=true"
+                        >  My Resume</a>
                     </li>
                 </ul>
                 <a href="/about" id="openup"> Ronald Shutter</a>

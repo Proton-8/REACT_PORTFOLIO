@@ -9,7 +9,7 @@ export const Footer = () => {
       </h2>
       <p> My email: <a href="mailto:ronashutter@gmail.com">ronashutter@gmail.com</a>
       </p>
-      <p>My phone: <a href="tel:+1233456789"> 123 345 6789</a>
+      <p>My phone: <a href="tel:+4256280242"> 425 628 0242</a>
       </p>
       <p>
         <a className="github" href="https://github.com/Proton-8">My GitHub Acct</a>
