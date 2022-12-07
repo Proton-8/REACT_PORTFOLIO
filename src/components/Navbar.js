@@ -1,9 +1,8 @@
 import React from 'react'
 
 export const Navbar = () => {
-    const    clickHandler = () =>{
-        console.log("We have a click !!!")
-    }
+  
+   
     return (
         <div>
             <nav className="cf">
@@ -18,7 +17,7 @@ export const Navbar = () => {
                     <li>
                         <a href="#contact"> Contact Me
                         </a>
-                        <button onClick={clickHandler}>TEST 123</button>
+                   
                     </li>
                 
                     <li>

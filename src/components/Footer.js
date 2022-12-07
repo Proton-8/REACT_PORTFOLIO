@@ -1,4 +1,6 @@
 import React from 'react'
+const    clickHandler = () =>{
+  console.log("We have a click !!!")};
 
 export const Footer = () => {
   return (
@@ -21,8 +23,9 @@ export const Footer = () => {
 
       <h2>Thank you for visiting my site!</h2>
       <h3>&copy;Proton-8</h3>
+     <button onClick={clickHandler}>TEST 123 </button>
     </footer>
-
+// onClick={() => {console.log("hello")} }
   )
 }
 
