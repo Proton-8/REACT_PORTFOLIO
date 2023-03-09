@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/REACT_PORTFOLIO/static/css/main.17cd7a61.css",
+    "main.js": "/REACT_PORTFOLIO/static/js/main.dae4d1da.js",
+    "static/js/787.ec1d7a9d.chunk.js": "/REACT_PORTFOLIO/static/js/787.ec1d7a9d.chunk.js",
+    "static/media/Proj2.gif": "/REACT_PORTFOLIO/static/media/Proj2.c9f49695670aeeb75e79.gif",
+    "static/media/Proj4.gif": "/REACT_PORTFOLIO/static/media/Proj4.e488336272f3e3bd3a87.gif",
+    "static/media/Beach.jpg": "/REACT_PORTFOLIO/static/media/Beach.9f51dd00980126933bfe.jpg",
+    "static/media/Proj6.JPG": "/REACT_PORTFOLIO/static/media/Proj6.3e363d8154035bdcde45.JPG",
+    "static/media/Proj3.JPG": "/REACT_PORTFOLIO/static/media/Proj3.6c1e086a48d3a967b17e.JPG",
+    "static/media/Proj1.JPG": "/REACT_PORTFOLIO/static/media/Proj1.1e6aceb531a065cf2426.JPG",
+    "static/media/Proj8.JPG": "/REACT_PORTFOLIO/static/media/Proj8.155385669d6e93133271.JPG",
+    "static/media/Proj5.JPG": "/REACT_PORTFOLIO/static/media/Proj5.ed8dc27bc8e08fe20315.JPG",
+    "static/media/mug-1c.jpg": "/REACT_PORTFOLIO/static/media/mug-1c.b45a5e7e1fc63aa7a283.jpg",
+    "index.html": "/REACT_PORTFOLIO/index.html",
+    "main.17cd7a61.css.map": "/REACT_PORTFOLIO/static/css/main.17cd7a61.css.map",
+    "main.dae4d1da.js.map": "/REACT_PORTFOLIO/static/js/main.dae4d1da.js.map",
+    "787.ec1d7a9d.chunk.js.map": "/REACT_PORTFOLIO/static/js/787.ec1d7a9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17cd7a61.css",
+    "static/js/main.dae4d1da.js"
+  ]
+}
